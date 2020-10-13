@@ -1,0 +1,1159 @@
+body {
+  background-color: #fff6f5;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -ms-user-select: none;
+      user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.main .background-image-1 {
+  height: 800px;
+  background-position-y: center;
+  width: 100%;
+  position: absolute;
+  z-index: -100;
+}
+
+.navbar {
+  width: 100%;
+  height: 500px;
+}
+
+.navbar img {
+  height: 70px;
+}
+
+.btn-go:hover {
+  background-color: #f03d3d !important;
+}
+
+.more {
+  font-weight: bold;
+}
+
+.more:hover {
+  color: #a3a3a3;
+  text-decoration: none;
+}
+
+.btn-search {
+  border-color: white;
+  color: white;
+  background-color: rgba(98, 98, 98, 0.349);
+}
+
+.btn-search img {
+  width: 20px;
+  height: auto;
+}
+
+.btn-search:hover {
+  background-color: #818181 !important;
+  border-color: #818181 !important;
+}
+
+.nasa-logo img {
+  height: 60px;
+  width: auto;
+  -webkit-user-select: none;
+}
+
+.rover-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 45px;
+  margin-top: 400px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.first-r {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-r h5 {
+  font-weight: bold;
+  font-size: medium;
+  color: #ff452c;
+}
+
+.first-r p {
+  color: white;
+  margin: 0;
+}
+
+.second-navbar {
+  padding-top: 25px;
+  background-color: #ed4c41;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-navbar h1 {
+  color: white;
+  position: absolute;
+}
+
+.main-news-slider {
+  background-color: #fff6f5;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.main-news-slider h1 {
+  color: #742e0c;
+  font-weight: bold;
+}
+
+.main-news-slider .btn .btn {
+  background-color: #ed4c41;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+}
+
+.main-news-slider div {
+  position: relative;
+}
+
+.align-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.previous-btn-2nd {
+  padding: 15px 0 30px 0;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.connect-middle {
+  height: 350px;
+  width: 1000px;
+  padding: 0 20px;
+}
+
+.btn-all-news .btn {
+  background-color: #ed4c41;
+  color: white;
+}
+
+.curiosity-findings-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  color: white;
+  z-index: 1;
+}
+
+.background-image-2 img {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.col-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: -30px;
+}
+
+.mars-card {
+  margin-left: -100px;
+  background-color: white;
+}
+
+.dropdown .nasa-planet-icon {
+  background-color: transparent;
+}
+
+.dropbtn, .dropbtn-part-2 {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.carousel-control-prev {
+  padding-right: 150px;
+  margin-top: auto;
+}
+
+.carousel-control-next {
+  padding-left: 150px;
+  padding-top: auto;
+}
+
+.second-slider-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-slider-flex .card-middle {
+  margin: 0 15px;
+}
+
+.icon {
+  fill: #ed4c41;
+}
+
+.sc-navdesk-go {
+  visibility: hidden;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.first-carosel-mobile {
+  margin-top: -160px;
+}
+
+.main-mobile {
+  position: absolute;
+  visibility: hidden;
+}
+
+@media (max-width: 450px) {
+  .container {
+    margin-top: -30px;
+  }
+  .newsletter-left {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+  }
+  .main-mobile {
+    visibility: visible;
+    width: 100%;
+    height: 500px;
+    padding-top: 70px;
+  }
+  .main-mobile img {
+    -o-object-position: center;
+       object-position: center;
+    width: 100%;
+    height: 500px;
+  }
+  .background-image-1 {
+    visibility: hidden;
+  }
+  .second-navbar {
+    position: absolute;
+    visibility: hidden;
+  }
+  .media-filler {
+    text-align: center;
+    height: 500px;
+  }
+  .media {
+    display: contents !important;
+  }
+  .col-6 {
+    padding-top: 80px;
+    max-width: none;
+  }
+  .col-6 img {
+    width: -webkit-fill-available !important;
+  }
+  main
+.second-row {
+    color: white;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-right: 320px;
+    margin-top: -100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main
+.second-row h5 {
+    font-size: 12px;
+  }
+  main
+.second-row p {
+    font-size: 10px;
+  }
+  .second-r {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sc-navdesk-go {
+    visibility: hidden;
+  }
+  .mobile-go {
+    visibility: visible;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    padding: 18px !important;
+  }
+  .mobile .nasa-mobile-logo {
+    width: 200px;
+    height: auto;
+    padding-top: 20px;
+  }
+  .main-news-slider {
+    height: 670px;
+    margin-bottom: -40px;
+  }
+  .information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-sizing: unset !important;
+            box-sizing: unset !important;
+  }
+  .information h1 {
+    font-size: xx-large !important;
+  }
+  .information span {
+    font-size: medium !important;
+  }
+}
+
+.mobile .btn:hover {
+  background-color: transparent;
+}
+
+.mobile .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.mobile .dropdown-menu {
+  width: 100%;
+}
+
+.mobile .dropdown-menu a {
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .information {
+    width: auto !important;
+  }
+  .second-navbar {
+    visibility: hidden;
+  }
+  .carousel-control-prev {
+    margin: 0 !important;
+  }
+  .carousel-control-next {
+    margin: 0 !important;
+  }
+  .newsletter-left {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+  }
+  .newsletter-left .mb-3 {
+    margin: auto;
+  }
+  .second-row {
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .second-row h5 {
+    font-size: 14px;
+  }
+  .second-row p {
+    font-size: 12px;
+  }
+  .second-r {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .second-r h5 {
+    font-weight: bold;
+    color: #ff452c;
+  }
+  .second-r p {
+    color: white;
+    margin: 0;
+  }
+  .sc-navdesk-go {
+    visibility: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .first-carosel-mobile {
+    margin-bottom: -60px;
+  }
+  .mobile-go {
+    visibility: hidden;
+  }
+  .media {
+    max-width: none;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .media-1 {
+    padding-right: 15px;
+    width: 100% !important;
+  }
+  .media-1 img {
+    max-width: 200%;
+    height: auto;
+  }
+  .media-filler .container {
+    height: 700px;
+  }
+  .blank {
+    position: absolute;
+  }
+  .container {
+    max-width: auto;
+  }
+}
+
+@media (max-width: 1201px) {
+  .container {
+    max-width: auto;
+  }
+  .information {
+    padding: 0 !important;
+  }
+  .information h1 {
+    font-size: xxx-large;
+  }
+  .information span {
+    font-size: large;
+  }
+  .carousel-control-prev {
+    margin: 20px;
+    padding: 0 20px;
+    margin-top: -140px;
+  }
+  .carousel-control-next {
+    margin: 20px;
+    padding: 0 0px;
+    margin-top: -140px;
+  }
+  .first-page {
+    height: 600px;
+  }
+  .second-navbar .dropdown .mobile-disable {
+    pointer-events: none;
+  }
+  .second-carosel-mobile {
+    visibility: visible;
+  }
+  .card-mobile-go, .carousel-control-sc, .carousel-sc-prv, .media-2 {
+    visibility: hidden;
+  }
+  .card-middle{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -350px;
+  }
+  .card a{
+    color: inherit;
+  }
+  .media-1 img {
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .main {
+    height: auto;
+    width: 100%;
+  }
+  .main img {
+    margin-top: -70px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .navbar img {
+    height: 70px;
+  }
+  .col-9, .nasa-logo {
+    position: absolute;
+    visibility: hidden;
+  }
+  .nasa-logo-mobile {
+    margin-top: -230px;
+  }
+  .nasa-logo-mobile img {
+    height: 50px;
+    width: auto;
+  }
+  .newsletter-left .input-group {
+    width: 220px !important;
+  }
+  .nav-response .dropdown-mobile {
+    position: absolute;
+    visibility: hidden;
+  }
+  .nav-response svg {
+    fill: white;
+  }
+  .nav-response .mob-content {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    visibility: hidden;
+    position: absolute;
+  }
+  .nav-response .mob-content .img-drop-mob p {
+    padding-left: 100px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .nav-response .mob-content img {
+    margin-top: -70px;
+    margin-left: 10px;
+  }
+  .nav-response .mob-content .btn-group {
+    padding-top: 15px;
+    background-color: transparent;
+  }
+  .nav-response .mob-content .btn {
+    padding-left: 50px;
+    color: white;
+    font-size: x-large;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-response .hamburger-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 98%;
+    margin-top: -33px;
+    /* Toggled State */
+  }
+  .nav-response .hamburger-btn svg {
+    position: absolute;
+    background-color: transparent;
+  }
+  .nav-response .hamburger-btn .mobile img {
+    position: absolute;
+    visibility: hidden;
+  }
+  .nav-response .hamburger-btn #btnControl {
+    display: none;
+  }
+  .nav-response .hamburger-btn input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .nav-response .hamburger-btn label {
+    position: absolute;
+    background-color: red;
+    z-index: 111;
+  }
+  .nav-response .hamburger-btn .mobile-drop-content {
+    position: absolute;
+    visibility: hidden;
+  }
+  .nav-response .hamburger-btn input:checked + div {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #601e18;
+  }
+  .nav-response .hamburger-btn input:checked + div .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav-response .hamburger-btn input:checked + div .dropdown-toggle {
+    padding-left: 20%;
+    position: absolute;
+    padding-left: 74%;
+  }
+  .nav-response .hamburger-btn input:checked + div hr {
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(192, 232, 255, 0.75)), to(rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(192, 232, 255, 0.75), rgba(255, 255, 255, 0));
+  }
+  .nav-response .hamburger-btn input:checked + div .mob-content {
+    visibility: visible;
+    position: unset;
+    margin-top: 150px;
+  }
+  .nav-response .hamburger-btn input:checked + div .mobile-drop-content {
+    visibility: visible;
+  }
+  .nav-response .hamburger-btn input:checked + div img {
+    visibility: visible;
+  }
+  .nav-response .hamburger-btn input:checked + div .nasa-logo-2nd {
+    visibility: visible;
+  }
+  .nav-response .hamburger-btn #btnControl {
+    display: none;
+  }
+  .nav-response .active {
+    background-color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  .first{
+    display: flex;
+    justify-content: space-between;
+  }
+  .first .card{
+    margin: 8px;
+  }
+  .card a{
+    color: inherit;
+  }
+  .card a:hover{
+    text-decoration: none;
+  }
+  .navbar {
+    height: 650px;
+  }
+  .carousel-control-prev {
+    padding-bottom: 50px;
+  }
+  .carousel-control-next {
+    padding-bottom: 50px;
+  }
+  .first-row {
+    margin-bottom: 40px;
+  }
+  .secod-c{
+    display: flex !important;
+
+  }
+  .second-slider-flex{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .nav-response {
+    visibility: hidden;
+  }
+  .main img{
+    height: 1000px !important;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.black-layer img {
+  opacity: 80%;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.new-articles {
+  background-color: #ed4c41;
+  color: white;
+  font-size: medium;
+}
+
+.new-articles:hover {
+  background-color: #fcafa9;
+  color: white;
+}
+
+.information h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+
+.information span {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.media {
+  height: 650px;
+  padding-top: 7%;
+}
+
+.media-1 h3 {
+  padding-bottom: 2%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #782e0c;
+  font-size: 33px;
+}
+
+.media-1 p {
+  padding-top: 2%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.media-2 {
+  padding-left: 9%;
+}
+
+.media-2 h3 {
+  padding-bottom: 2%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #782e0c;
+  font-size: 33px;
+}
+
+.media-2 ul {
+  padding: 0;
+}
+
+.media-2 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.media-2 img {
+  padding-right: 2%;
+  width: 150px;
+}
+
+.media-2 .text {
+  padding-left: 20px;
+}
+
+.media-2 .text p {
+  padding-top: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.media-filler {
+  background-color: #edecec;
+}
+
+.web-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background-image: url("/img/footer_bg.png");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.newsletter {
+  padding-top: 80px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newsletter .newsletter-left, .newsletter .newsletter-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newsletter-right {
+  color: #a8d8ee;
+}
+
+.ending-footer-upp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+.ending-footer-upp span {
+  padding: 0  10px;
+}
+
+.ending-footer-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newsletter-left {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 60px 0px;
+  color: #a8d8ee;
+}
+
+.newsletter-left img {
+  width: 50px;
+  height: auto;
+}
+
+.newsletter-left .child-twoo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.newsletter-left .child-twoo .child-two-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newsletter-left .child-twoo .child-two-img img {
+  margin: 0 10px;
+}
+
+.newsletter-left .form-control {
+  background-color: #2b353e;
+  border-color: #2b353e;
+  caret-color: white;
+}
+
+.newsletter-left .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.newsletter-left .btn:hover {
+  background-color: #2b353e;
+}
+
+.newsletter-left .input-group {
+  padding-top: 3.2%;
+}
+
+.links {
+  width: 100%;
+}
+
+.links hr {
+  margin: 0 auto;
+  width: 50%;
+  border: 0;
+  height: 1.6px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(192, 232, 255, 0.75)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(192, 232, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.links h3 {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.links-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.links-content .name-links div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 170px;
+}
+
+.links-content ul {
+  width: 150px;
+}
+
+.links-content ul h5 a {
+  color: white;
+}
+
+.links-content ul h5 a:hover {
+  text-decoration: none;
+  color: #dbedff;
+}
+
+.links-content li {
+  list-style: none;
+}
+
+.links-content li a {
+  font-size: 18px;
+  color: #7dbaf9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.links-content li:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ending-footer-upp ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ending-footer-upp a {
+  font-size: 15px;
+  color: #7dbaf9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.ending-footer-upp a:hover {
+  color: white;
+}
+
+.ending-footer-upp span {
+  color: #7dbaf9;
+}
+
+.ending-footer-upp li {
+  list-style: none;
+}
+
+.ending-footer-down {
+  padding-bottom: 100px;
+}
+
+.ending-footer-down p {
+  font-size: 18px;
+  color: #b2d8fd;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  padding: 0 50px;
+}
+
+.btn:hover {
+  background-color: #f36b61;
+}
+
+.dropdown button {
+  font-weight: bold;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 36px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #dddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn-part-2, .dropdown-content {
+  background-color: white;
+  color: #9d2926;
+}
