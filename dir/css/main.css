@@ -168,6 +168,7 @@ body {
 
 .connect-middle {
   height: 350px;
+  width: 900px;
   padding: 0 20px;
 }
 
@@ -750,8 +751,21 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .first{
+    display: flex;
+    justify-content: space-between;
+  }
+  .first .card{
+    margin: 8px;
+  }
+  .card a{
+    color: inherit;
+  }
+  .card a:hover{
+    text-decoration: none;
+  }
   .navbar {
-    height: 820px;
+    height: 650px;
   }
   .carousel-control-prev {
     padding-bottom: 50px;
@@ -760,7 +774,16 @@ body {
     padding-bottom: 50px;
   }
   .first-row {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+  }
+  .secod-c{
+    display: flex !important;
+
+  }
+  .second-slider-flex{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
   }
   .nav-response {
     visibility: hidden;
@@ -768,6 +791,8 @@ body {
   .main img{
     height: 1000px !important;
     width: auto;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
